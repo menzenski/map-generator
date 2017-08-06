@@ -5,13 +5,15 @@ import os
 import os.path
 from setuptools import setup
 
-# read the version number from the VERSION file
-with open(os.path.join(os.getcwd(), 'VERSION')) as version_file:
-    version = version_file.read().strip()
+here = os.path.abspath(os.path.dirname(__file__))
+
+about = {}
+with open(os.path.join(here, "map_generator", "__about__.py")) as about_file:
+    exec(about_file.read(), about)
 
 setup(
     name='mapgenerator',
-    version=version,
+    version=about['__version__'],
     url='https://github.com/menzenski/map-generator',
     license='MIT',
     author='Matt Menzenski',
