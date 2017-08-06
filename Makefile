@@ -14,6 +14,6 @@ activate:
 	pipenv shell -c
 
 test:
-	pipenv shell -c "python3 setup.py test"
+	pipenv run py.test tests
 
 .PHONY: help activate test
