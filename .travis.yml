@@ -10,3 +10,4 @@ env:
 install: make setup
 # # command to run tests
 script: make test
+after_script: exit
