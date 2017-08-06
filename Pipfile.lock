@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "7a6e4cdb29be70223d164dc3ef8449aa332c97e101ad989775892c6b24221f43"
+            "sha256": "eab33428c4713490f3adf41a1fc5dda34f666a3dd084a218bd12e436ed39298f"
         },
         "requires": {},
         "sources": [
@@ -23,6 +23,10 @@
         "pytest": {
             "hash": "sha256:66f332ae62593b874a648b10a8cb106bfdacd2c6288ed7dec3713c3a808a6017",
             "version": "==3.0.7"
+        },
+        "pytest-logging": {
+            "hash": "sha256:cec5c85ecf18aab7b2ead5498a31b9f758680ef5a902b9054ab3f2bdbb77c896",
+            "version": "==2015.11.4"
         },
         "setuptools": {
             "hash": "sha256:02b5f3869777dfbfbe3786a057bc6d523445a3e541a0abdf85adbe0b091e96b9",

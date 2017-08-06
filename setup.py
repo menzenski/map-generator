@@ -26,4 +26,5 @@ setup(
         ],
     },
     setup_requires=['pytest-runner'],
+    tests_requires=['pytest'],
 )
