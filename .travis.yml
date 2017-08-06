@@ -8,4 +8,4 @@ env:
 # command to install dependencies
 install: make setup
 # # command to run tests
-script: pipenv shell -c "python3 setup.py test"
+script: make test
